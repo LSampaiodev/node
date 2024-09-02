@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex Simples com Axios</title>
+    <link rel="stylesheet" href="../ProjetoPokeDex/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Detalhes do Pokemon</h1>
+      <div id="pokemon-details">
+        <input
+          type="text"
+          id="pokemon-name-input"
+          placeholder="Digite o nome do Pokemon"
+        />
+        <button onclick="buscarPokemon()">Buscar</button>
+      </div>
+      <div>
+        <div id="pokemon-info"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../ProjetoPokeDex/js/script.js"></script>
+  </body>
+</html>
